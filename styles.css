@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2vw;
+  margin-top: 3vw;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 33% 33% 33%;
+  margin: 2vw 15vw 5vw 15vw;
+}
+
+ul {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  list-style: none;
+}
+
+li img {
+  width: 16vw;
+  height: 16vw;
+}
+
+li {
+  font-family: "Raleway", sans-serif;
+  font-size: 1vw;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 200;
+  color: #888888;
+  margin: 0;
+
+}
+
+.name {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1.1vw;
+  font-weight: bold;
+  border-bottom: solid 2px #5bb185;
+  margin-bottom: .75vw;
+  margin-top: .5vw;
+}
+
+.email {
+  color: #cbcbcb;
+  font-size: .9vw;
+  text-transform: uppercase;
+  margin-bottom: 1.1vw;
+}
+
+.address1, .address2 {
+  padding-bottom: .35vw;
+}
+
+.phone {
+  padding-bottom: 1.25vw;
+}
+
+.ssn {
+  color: transparent;
+  font-weight: bold;
+  text-shadow: 0 0 5px rgba(0, 204, 153, 0.5);
+
+}
